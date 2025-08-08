@@ -10,7 +10,7 @@ from discord import app_commands
 from discord.ext import commands
 from dotenv import load_dotenv
 
-from .predictions import (
+from bot.predictions import (
     generate_single_prediction,
     generate_xy_prediction,
     parse_ping,
