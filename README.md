@@ -22,6 +22,11 @@ A Python Discord bot that generates high-precision Da Hood/Fake Da Hood predicti
 python -m bot
 ```
 
+## Replit
+- Set the Run command to: `python3 -m bot` (this repo includes a `.replit` that does this).
+- Add a Secret named `DISCORD_TOKEN` (and optional `GUILD_ID`).
+- If your Replit uses Python 3.12/3.13, `audioop-lts` is included to satisfy discord.py's optional voice dependency.
+
 On first run the slash command is registered. If you set `GUILD_ID`, it registers instantly for that guild; otherwise global registration can take up to an hour.
 
 ## Slash Command
